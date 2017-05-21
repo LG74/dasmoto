@@ -1,0 +1,40 @@
+body {
+  font-family: Helvetica, sans-serif;
+/* alternative I tried to have a width limited to 1600px, and it works!
+  max-width: 1600px;
+  margin: auto;
+}
+html {
+  margin: 8px;
+*/
+}
+
+strong {
+  color: blue;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  color: khaki;
+  background-image: url("../img/pattern.jpg");
+  background-color: grey;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+#brushes h2 {
+  background-color: mediumspringgreen;
+}
+#frames h2 {
+  background-color: lightcoral;
+}
+#paint h2 {
+  background-color: skyblue;
+}
